@@ -7,10 +7,21 @@
     padding: 0%;
     margin: 0%;
 }
-
+.icon{
+    display: none;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+.icon img
+{
+    width: 10px;
+    height: 1px;
+}
 .navbar
 {
-    width: 100%;
+    width: 1490px;
     height: 50px;
     display: flex;
     background-color: whitesmoke;
@@ -93,4 +104,21 @@
 {
     width: 45px;
     height: 45px;
+}
+@media screen and (max-width: 1000px )
+{
+    .navbar div{  font-size: 1vw; font-weight: bolder;}
+    .navbar .links{margin-left: 100px;margin-top: 10px;} 
+    .navbar h3{font-size: 2vw; margin-left: 30px; margin-top: 15px;}  
+    .ls{ margin-left: 150px; margin-top: 15px;}
+    .icon
+    {
+        display: flex;   
+    }
+    #navi img{ width: 30px; height: 30px;}
+
+    .iconres
+    {
+        .navbar .links{display: block; align-items: left; float: none; }
+    }
 }

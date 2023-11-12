@@ -8,10 +8,10 @@
     <script src="sript.js"></script>
 </head>
 <body>
-    <section>
+    <section id="Home" class="home1 home2">
         <div class="navbar"> 
-            <!-- <button id="navi" class="icon" onclick="sidebar()"><img src="icon.png" alt="">Home</button> -->
-            <h3> Reverse Zomato</h3>
+            <!-- <button id="navi" class="icon" onclick="slideshow()"><img src="icon.png" alt="">Home</button> -->
+            <h3 id="Name" class="name1 name2"> Reverse Zomato</h3>
             <div class="links">
                     <a href="">Home</a>
                     <div class="dropdown">
@@ -42,8 +42,41 @@
                 |
                 <a href="">Sign Up</a>
             </div>
-            <button onclick="alert()"> <img src="user-avatar.png" alt=""></button>
+            <div class="avatr"  >
+                <button onclick="avatar()"> <img src="user-avatar.png" alt=""></button>
+            <div class="container" id="avatar">
+                <a href="">Edit Profile</a>
+                <a href="">Dashboard</a>
+                <a href="">Account</a>
+                <a href="">FAQs</a>
+            </div></div>
         </div>
+    </section>
+    <section>
+        <div class="slideshow-container" >
+            <div class="mySlides fade">
+              <div class=" def numbertext">1 / 3</div>
+              <img src="images/S1.jpg" style="width:600px; height: 500px; margin-left: 200px;">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/S2.jpg" style="width:600px; height: 500px; margin-left: 200px;">
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/S31.jpg" style="width:600px; height: 500px; margin-left: 200px;">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
     </section>
 </body>
 </html>

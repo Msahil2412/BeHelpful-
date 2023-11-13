@@ -21,7 +21,7 @@
 }
 .navbar
 {
-    width: 1490px;
+    width: 1480px;
     height: 50px;
     display: flex;
     background-color: whitesmoke;
@@ -67,7 +67,7 @@
     background-color: #f1f1f1;
     min-width: 280px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: -1;
+    z-index: 1;
 }
 .dropdown-content a {
     color: black;
@@ -81,7 +81,7 @@
 }
 .ls
 {
-    margin-left: 250px;
+    margin-left: 240px;
     margin-top: 10px;
 }
 .ls a
@@ -102,7 +102,7 @@
 .navbar button img
 {
     width: 45px;
-    height: 45px;
+    height: 43px;
 }
 @media screen and (max-width: 1000px )
 {
@@ -115,12 +115,15 @@
         display: flex;   
     }
     #navi img{ width: 30px; height: 30px;}
-
+    .slideshow-container{ width: 500px;}
+    .mySlides img{ width: 400px; height: 300px; margin-left: 50px;}
+   
     .iconres
     {
         .navbar .links{display: block; align-items: left; float: none; }
     }
 }
+
 .avatr
 {
     display: block;
@@ -131,7 +134,7 @@
     background-color: whitesmoke;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 280px;
+    /* min-width: 280px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 250px;
@@ -157,6 +160,10 @@
     position: relative;
     margin: auto;
 }
+.imgg
+{
+    width:800px; height: 600px; margin-left: 100px;
+}
 .mySlides {
     display: none;
 }
@@ -164,12 +171,12 @@
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
+    width: 20px;
     margin-top: -22px;
     padding: 16px;
     color: gray;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1vw;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -180,22 +187,6 @@
 }
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
-}
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
 }
 .dot {
     cursor: pointer;
@@ -218,4 +209,93 @@
 @keyframes fade {
    from {opacity: .4}
    to {opacity: 1}
+}
+/* @media screen and (max-width: 500px )
+{
+    .navbar div{  font-size: 1vw; font-weight: bolder;}
+    .navbar .links{margin-left: 50px;margin-top: 10px;} 
+    .navbar h3{font-size: 1.5vw; margin-left: 15px; margin-top: 15px;}  
+    .ls{ margin-left: 50px; margin-top: 15px;}
+    .container{ padding: 5px; width: 100px; }
+    .container a{padding: 6px 8px;}
+    .avatr button img{width: 30px; height: 35px;}
+    .icon
+    {
+        display: flex;   
+    }
+    #navi img{ width: 15px; height: 15px;}
+    .slideshow-container{ width: 250px;}
+    .mySlides img{ width: 200px; height: 150px; margin-left: 25px;}
+    .prev , .next{
+        width: 15px; font-size: 1.5vw; padding: 8px;
+    }
+    .dot{ width: 8px; height: 8px;}
+} */
+.box {
+    
+    border: 2px solid #f10a81;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: rgb(249, 13, 155);
+    height: 230px;
+    width: 1200px;
+    margin-left: 120px;
+}
+
+.box-title {
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    background-color: #fc1bc0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px 8px 8px 8px;
+    height: 70px;
+    width: 600px;
+    font-size: 2.2rem;
+    box-shadow: 0px 0px 10px grey;
+    font-family: 'Montserrat', sans-serif;
+}
+.box-title p
+{
+    margin-left: 35px;
+}
+.box-content {
+   position: relative;
+   top: 50px;
+   left: 5px;
+   color: #f0f8ff;
+   font-size: 1.3rem;
+   font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 500px )
+{
+    .navbar{ width: 469px; height: 40px;}
+    .navbar div{  font-size: 1.1vw; font-weight: bolder;}
+    .navbar .links{margin-left: 40px;margin-top: 10px;} 
+    .navbar h3{font-size: 1.5vw; margin-left: 15px; margin-top: 15px;}  
+    .ls{ margin-left: 50px; margin-top: 15px;}
+    .container{ padding: 5px; width: 100px; }
+    .container a{padding: 6px 8px;}
+    .avatr button img{width: 30px; height: 31px;}
+    .icon
+    {
+        display: flex;   
+    }
+    #navi img{ width: 15px; height: 15px;}
+    .slideshow-container{ width: 250px;}
+    .mySlides img{ width: 200px; height: 150px; margin-left: 25px;}
+    .prev , .next{
+        width: 15px; font-size: 1.5vw; padding: 8px;
+    }
+    .dot{ width: 8px; height: 8px;}
+    .box{height: 100px;
+        width: 350px;
+        margin-left: 60px;}
+        .box-title{ width: 150px; height: 30px; top: -15px; font-size: 0.8rem; left: 5px;}
+        .box-title p{ margin-left: 8px; margin-top: 6px;}
+        .box-content{ top: 20px; font-size: 0.9rem;}
 }

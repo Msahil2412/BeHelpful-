@@ -104,26 +104,6 @@
     width: 45px;
     height: 43px;
 }
-@media screen and (max-width: 1000px )
-{
-    .navbar div{  font-size: 1vw; font-weight: bolder;}
-    .navbar .links{margin-left: 100px;margin-top: 10px;} 
-    .navbar h3{font-size: 2vw; margin-left: 30px; margin-top: 15px;}  
-    .ls{ margin-left: 150px; margin-top: 15px;}
-    .icon
-    {
-        display: flex;   
-    }
-    #navi img{ width: 30px; height: 30px;}
-    .slideshow-container{ width: 500px;}
-    .mySlides img{ width: 400px; height: 300px; margin-left: 50px;}
-   
-    .iconres
-    {
-        .navbar .links{display: block; align-items: left; float: none; }
-    }
-}
-
 .avatr
 {
     display: block;
@@ -210,27 +190,7 @@
    from {opacity: .4}
    to {opacity: 1}
 }
-/* @media screen and (max-width: 500px )
-{
-    .navbar div{  font-size: 1vw; font-weight: bolder;}
-    .navbar .links{margin-left: 50px;margin-top: 10px;} 
-    .navbar h3{font-size: 1.5vw; margin-left: 15px; margin-top: 15px;}  
-    .ls{ margin-left: 50px; margin-top: 15px;}
-    .container{ padding: 5px; width: 100px; }
-    .container a{padding: 6px 8px;}
-    .avatr button img{width: 30px; height: 35px;}
-    .icon
-    {
-        display: flex;   
-    }
-    #navi img{ width: 15px; height: 15px;}
-    .slideshow-container{ width: 250px;}
-    .mySlides img{ width: 200px; height: 150px; margin-left: 25px;}
-    .prev , .next{
-        width: 15px; font-size: 1.5vw; padding: 8px;
-    }
-    .dot{ width: 8px; height: 8px;}
-} */
+.mid{ margin-top: 100px;}
 .box {
     
     border: 2px solid #f10a81;
@@ -271,12 +231,47 @@
    font-size: 1.3rem;
    font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 1000px )
+{
+    .navbar{width: 991px;}
+    .navbar div{  font-size: 1vw; font-weight: bolder;}
+    .navbar .links{margin-left: 100px;margin-top: 10px;} 
+    .navbar h3{font-size: 2vw; margin-left: 30px; margin-top: 15px;}  
+    .dropdown button{ font-weight: bolder;}
+    .ls{ margin-left: 150px; margin-top: 15px;}
+    .container{ padding: 15px; width: 200px; }
+    .container a{padding: 12px 10px;}
+    .avatr button img{width: 40px; height: 41px;}
+    .icon
+    {
+        display: flex;   
+    }
+    #navi img{ width: 30px; height: 30px;}
+    .slideshow-container{ width: 500px;}
+    .mySlides img{ width: 400px; height: 300px; margin-left: 50px;}
+   
+    .iconres
+    {
+        .navbar .links{display: block; align-items: left; float: none; }
+    }
+    .mid{ margin-top: 10px;}
+    .box{height: 100px;
+        width: 350px;
+        margin-left: 60px;}
+    .box-title{ width: 150px; height: 30px; top: -15px; font-size: 0.8rem; left: 5px;}
+    .box-title p{ margin-left: 8px; margin-top: 6px;}
+    .box-content{ top: 20px; font-size: 0.9rem;}
+    .last{ margin-left: 280px;}
+}
+
 @media screen and (max-width: 500px )
 {
-    .navbar{ width: 469px; height: 40px;}
+    .navbar{ width: 481px; height: 40px;}
     .navbar div{  font-size: 1.1vw; font-weight: bolder;}
     .navbar .links{margin-left: 40px;margin-top: 10px;} 
     .navbar h3{font-size: 1.5vw; margin-left: 15px; margin-top: 15px;}  
+    .dropdown button{ font-weight: bolder;}
     .ls{ margin-left: 50px; margin-top: 15px;}
     .container{ padding: 5px; width: 100px; }
     .container a{padding: 6px 8px;}
@@ -292,6 +287,7 @@
         width: 15px; font-size: 1.5vw; padding: 8px;
     }
     .dot{ width: 8px; height: 8px;}
+    .mid{ margin-top: 80px;}
     .box{height: 100px;
         width: 350px;
         margin-left: 60px;}

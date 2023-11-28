@@ -6,6 +6,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 .icon{
     display: none;
@@ -78,6 +79,10 @@
 .dropdown:hover .dropdown-content 
 {
     display: block;
+}
+.dropdown-content :hover
+{
+    background-color: #8d8c8c;
 }
 .ls
 {
@@ -231,7 +236,50 @@
    font-size: 1.3rem;
    font-family: 'Montserrat', sans-serif;
 }
+#know{ display: flex;}
 
+#know img{ 
+    width: 550px;
+    height: 550px;
+    z-index: 1;
+}
+#know h1
+{
+    font-family: 'Montserrat' ,  sans-serif;
+    margin-top: 150px;
+    font-size: 2.8vw;
+    color: #717171;
+}
+#know div
+{display: block; width: 700px;}
+#know p{margin-top: 30px; font-size: 1.6vw; color: grey;}
+#feedback form{
+ border: 5px solid #fc1bc0 ;
+ border-radius: 10px;
+ box-shadow: 0 3px 3px;
+ height: 350px;
+ width: 900px;
+ margin-left: 290px;
+}
+
+#feedback form h1
+{
+    margin-top: 20px;
+    color: #717171;
+    font-size: 1.8vw;
+    justify-content: center;
+}
+#feedback form input
+{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 0px;
+}
+#feedback form textarea{ width: 400px; height: 100px; margin-top: 10px; margin-left: 30px; font-size: 1.1vw; border: 0;}
+#feedback form button{width: 100px; height: 40px; color: whitesmoke; border: 0; background-color: grey;}
+#feedback form label{ font-size: 1.2vw}
 @media screen and (max-width: 1000px )
 {
     .navbar{width: 991px;}
@@ -250,11 +298,6 @@
     #navi img{ width: 30px; height: 30px;}
     .slideshow-container{ width: 500px;}
     .mySlides img{ width: 400px; height: 300px; margin-left: 50px;}
-   
-    .iconres
-    {
-        .navbar .links{display: block; align-items: left; float: none; }
-    }
     .mid{ margin-top: 10px;}
     .box{height: 100px;
         width: 350px;
@@ -262,6 +305,10 @@
     .box-title{ width: 150px; height: 30px; top: -15px; font-size: 0.8rem; left: 5px;}
     .box-title p{ margin-left: 8px; margin-top: 6px;}
     .box-content{ top: 20px; font-size: 0.9rem;}
+    #know img{ width: 350px; height: 350px;}
+    #know h1 { margin-top: 85px; }
+    #feedback form{ width: 500px; height: 370px;}
+    #feedback form input{ width: 160px;}
     .last{ margin-left: 280px;}
 }
 
@@ -298,4 +345,13 @@
         .box-title{ width: 120px; height: 30px; top: -15px; font-size: 0.6rem; left: 5px;}
         .box-title p{ margin-left: 8px; margin-top: 6px;}
         .box-content{ top: 20px; font-size: 0.9rem;}
+    #know img{ width: 100px; height: 100px;}
+    #know h1 { margin-top: 30px; }
+    #know div{ width: 250px;} 
+    #know p{ margin-top: 10px; font-size: 1.2w;}
+    #feedback form{ width: 200px; height: 180px; margin-left: 90px; margin-top: 20px;}
+    #feedback form input{ width: 60px; height: 10px; font-size: 1.5vw;} 
+    #feedback form textarea{ width: 100px; height: 20px;}
+    #feedback form button { width: 30px; height: 10px; font-size: 1.1vw; margin-top: -50px;}
+    #feedback form lable{ font-size: 1.1vw;}
 }

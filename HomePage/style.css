@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@300&display=swap');
 
 
 
@@ -31,9 +30,9 @@
 {
     color: gray;
     margin-top: 10px;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     margin-left: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gruppo', sans-serif;
 }
 
 .links
@@ -152,6 +151,7 @@
 .mySlides {
     display: none;
 }
+.def{display: block;}
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -296,6 +296,7 @@ footer p { margin-left: 270px;}
 footer h2 , p{
     margin-left: 20px;
     margin-top: 20px;
+    font-family: 'Gruppo', sans-serif;
 }
 footer img 
 {
@@ -310,7 +311,7 @@ footer img
     .navbar{width: 988px;}
     .navbar div{  font-size: 1vw; font-weight: bolder;}
     .navbar .links{margin-left: 100px;margin-top: 10px;} 
-    .navbar h3{font-size: 2vw; margin-left: 30px; margin-top: 15px;}  
+    .navbar h3{font-size: 2.3vw; margin-left: 30px; margin-top: 15px;}  
     .dropdown button{ font-weight: bolder;}
     .ls{ margin-left: 150px; margin-top: 15px;}
     .container{ padding: 15px; width: 200px; }
@@ -347,7 +348,7 @@ footer img
     .navbar{ width: 395px; height: 35px;}
     .navbar div{  font-size: 0.8vw; font-weight: bolder;}
     .navbar .links{margin-left: 25px;margin-top: 10px;} 
-    .navbar h3{font-size: 1.5vw; margin-left: 10px; margin-top: 15px;}  
+    .navbar h3{font-size: 1.8vw; margin-left: 10px; margin-top: 15px;}  
     .dropdown button{ font-weight: bolder;}
     .dropdown-content{ width: 150px;}
     .ls{ margin-left: 32px; margin-top: 15px;}
@@ -385,7 +386,7 @@ footer img
     #feedback form button { width: 30px; height: 10px; font-size: 1.1vw; margin-top: -50px;}
     #feedback form lable{ font-size: 1.1vw;}
     footer{ width: 395px; height: 20px;}
-    footer h2{ font-size: 1.2vw; margin-left: 10px; margin-top: 5px;}
+    footer h2{ font-size: 1.5vw; margin-left: 10px; margin-top: 5px;}
     footer p{ margin-left: 50px; font-size: 1.2vw; margin-top: 5px;}
     footer img{ width: 10px; height: 10px; margin-top: 5px;}
     .a1{margin-left: 30px;}

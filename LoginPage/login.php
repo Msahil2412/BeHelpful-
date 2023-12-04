@@ -34,8 +34,7 @@ if($row['user_name']===$uname && $row['password']===$pass){
     header("Location: home.php");
     exit();
 }
-
-else{
+else if {
     header("Location: index.php?error=Incorrect user name or password");
     exit();
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <form action="login.php" method="post">
+        <h1>REVRSE ZOMATO </h1>
+        <h3>LOGIN</h3>
+        <?php if(isset($_GET['erroe'])){?>
+        <p class="error"> <?php echo $_GEt['error'];?></P>
+        <?php
+        
+        }?>
+        <label> User Tame:</label>
+        <input type="text" name="uname" placeholder="user name"><br>
+        <label>Password:<label>
+            <input type="Password" name="Password" placeholder="Password"><br>
+
+            <button type="submit">Login</button>
+    </form>
+    </center>
+
+</body>
+</html>
